@@ -19,4 +19,5 @@ The USDE coins are used by USDE community members for USDE services and to store
 #How are they produced?
 USDE coin uses a special algorithm called the POW/POS to secure the USDE Coin network. The moment you acquire USDE Coin it becomes an interest bearing asset with 120% return per year through PoS minting. All you have to do to earn with this method is to hold coins in your USDE-QT wallet. In addition to PoS minting, USDE coin can be mined with CPU/GPU and does not need an ASIC miner like Bitcoin does.
 
+-USDE
 

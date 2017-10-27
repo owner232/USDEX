@@ -3,7 +3,7 @@ USDE Coin is a secure and energy efficient PoW/PoS coin. USDE Coin uses a faster
 
 #USDE Coin Specification
 
-Maximum 28 million USDE coin will ever exist to the community.
+Maximum 232 million USDE coin will ever exist to the community.
 
 USDE coin adopt a variable PoS rate that will be given periodically payout as per following list,
 - 1st 6 months -> 60% (10% per month)

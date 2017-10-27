@@ -1,1 +1,0 @@
-minerd --url=http://127.0.0.1:4210 --userpass=bitconnect_rpc:26d09e6dfb94addc3128f14b1
