@@ -1228,8 +1228,17 @@ void MapPort()
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
+// Super redundant seed nodes
 static const char *strDNSSeed[][2] = {
-    {"node.whiterockserver.com", "69.41.171.168"}
+    {"whiterockserver.com", "node1.whiterockserver.com"},
+    {"whiterockserver.com", "node2.whiterockserver.com"},
+    {"whiterockserver.com", "node3.whiterockserver.com"},
+    {"whiterockserver.com", "node4.whiterockserver.com"},
+	{"whiterockserver.com", "node5.whiterockserver.com"},
+	{"whiterockserver.com", "node6.whiterockserver.com"},
+	{"whiterockserver.com", "node7.whiterockserver.com"},
+	{"whiterockserver.com", "node8.whiterockserver.com"},
+	{"whiterockserver.com", "node9.whiterockserver.com"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
