@@ -28,7 +28,7 @@ class CNode;
 
 class CTxMemPool;
 
-static const int LAST_POW_BLOCK = 262800;//Total proof of work block
+static const int LAST_POW_BLOCK = 512500;//Total proof of work block
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
@@ -52,7 +52,7 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-static const int64_t COIN_YEAR_REWARD = 18 * CENT;
+static const int64_t COIN_YEAR_REWARD = 10 * CENT;
 
 static const uint256 hashGenesisBlock("000003c2011628985827ae0b16cd2a6e6ad0aff09107c1da81e610711da3e5f2");
 static const uint256 hashGenesisBlockTestNet("000003c2011628985827ae0b16cd2a6e6ad0aff09107c1da81e610711da3e5f2");

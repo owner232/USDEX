@@ -955,7 +955,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "USDE";
+    const char* pszModule = "usde2";
 #endif
     if (pex)
         return strprintf(
@@ -985,13 +985,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\USDE
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\USDE
-    // Mac: ~/Library/Application Support/USDE
-    // Unix: ~/.USDE
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\USDE2
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\USDE2
+    // Mac: ~/Library/Application Support/USDE2
+    // Unix: ~/.USDE2
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "USDE";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "usde2";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1003,10 +1003,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "USDE";
+    return pathRet / "usde2";
 #else
     // Unix
-    return pathRet / ".USDE";
+    return pathRet / ".usde2";
 #endif
 #endif
 }

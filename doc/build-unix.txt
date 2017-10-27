@@ -12,13 +12,257 @@ UNIX BUILD NOTES
 
 To Build
 --------
+You can also run the autocompile.py and follow the steps
 start in usde root dir
 
-mkdir -p obj/zerocoin && chmod +x src/leveldb/build_detect_platform‏
+mkdir -p obj/zerocoin
+mkdir -p src/leveldb/build_detect_platform‏
+chmod +x src/leveldb/build_detect_platform‏
 cd src/
 mkdir obj
 make -f makefile.unix            # Headless USDE
 
+When it fails run this(again....)
+mkdir -p obj/zerocoin && chmod +x leveldb/build_detect_platform‏
+
+
+If you ever encounter the error
+src/leveldb/libleveldb.a: No such file or directory
+/src/leveldb/libmemenv.a: No such file or directory
+when compiling do the following:
+
+cd leveldb
+chmod 755 *
+cd ..
+and compile again
+
+For cross compiling follow this guide
+Guide is from:
+https://bitcointalk.org/index.php?topic=1080289.0
+look at the replys if you are having issues most are explained or google the error you get before making a ticket.
+
+move the leveldb from /src wincrosscompileleveldb and replace it with the leveldb in /src
+
+
+If you have levelDB issue (libleveldb.a / libmemenv.a), plz follow below instruction.
+
+Code:
+
+cd %coin_folder%/src/leveldb
+TARGET_OS=NATIVE_WINDOWS make libleveldb.a libmemenv.a CC=/mnt/mxe/usr/bin/i686-w64-mingw32.static-gcc CXX=/mnt/mxe/usr/bin/i686-w64-mingw32.static-g++
+
+
+Step 1.
+Firstly we need install cross compile environment.
+
+Install mxe dependencies:
+Code:
+
+sudo apt-get install p7zip-full autoconf automake autopoint bash bison bzip2 cmake flex gettext git g++ gperf intltool libffi-dev libtool libltdl-dev libssl-dev libxml-parser-perl make openssl patch perl pkg-config python ruby scons sed unzip wget xz-utils
+
+
+For 64-bit Ubuntu also install:
+Code:
+
+sudo apt-get install g++-multilib libc6-dev-i386
+
+
+Step 2.
+
+Clone mxe github repo (if you just download zip archive from guthub, mxe may not work):
+Code:
+
+cd /mnt
+git clone https://github.com/mxe/mxe.git
+
+
+Our environment will be placed in /mnt/mxe
+
+Step 3.
+Now we need compile boost and qt5 for our environment (need a couple of hours for this).
+If you compile something using mxe and move mxe directory to another place, then mxe will not work because all what you compile linked statically
+Compiling boost will fail if memory of your PC less then 2GB. Making swap partition will fix this.
+
+Compile boost:
+Code:
+
+cd /mnt/mxe
+make MXE_TARGETS="i686-w64-mingw32.static" boost
+
+
+Compile qt5:
+Code:
+
+make MXE_TARGETS="i686-w64-mingw32.static" qttools
+
+
+If you need qt4 (for some altcoins):
+Code:
+
+make MXE_TARGETS="i686-w64-mingw32.static" qt
+
+
+mxe automatically determine all dependencies and compile it.
+
+Step 4.
+Unfortunately mxe not support berkeley db and miniupnpc so we need compile them manually.
+
+Compiling berkley db:
+Download and unpack berkeley db:
+Code:
+
+cd /mnt
+wget http://download.oracle.com/berkeley-db/db-5.3.28.tar.gz
+tar zxvf db-5.3.28.tar.gz
+
+
+Make bash script for compilation:
+Code:
+
+cd /mnt/db-5.3.28
+touch compile-db.sh
+chmod ugo+x compile-db.sh
+
+
+Content of compile-db.sh:
+Code:
+
+#!/bin/bash
+MXE_PATH=/mnt/mxe
+sed -i "s/WinIoCtl.h/winioctl.h/g" src/dbinc/win_db.h
+mkdir build_mxe
+cd build_mxe
+
+CC=$MXE_PATH/usr/bin/i686-w64-mingw32.static-gcc \
+CXX=$MXE_PATH/usr/bin/i686-w64-mingw32.static-g++ \
+../dist/configure \
+	--disable-replication \
+	--enable-mingw \
+	--enable-cxx \
+	--host x86 \
+	--prefix=$MXE_PATH/usr/i686-w64-mingw32.static
+
+make
+
+make install
+
+
+Compile:
+Code:
+
+./compile-db.sh
+
+
+Compiling miniupnpc:
+Download and unpack miniupnpc:
+Code:
+
+cd /mnt
+wget http://miniupnp.free.fr/files/miniupnpc-1.6.20120509.tar.gz
+tar zxvf miniupnpc-1.6.20120509.tar.gz
+
+
+Make bash script for compilation:
+Code:
+
+cd /mnt/miniupnpc-1.6.20120509
+touch compile-m.sh
+chmod ugo+x compile-m.sh
+
+
+Content of compile-m.sh:
+Code:
+
+#!/bin/bash
+MXE_PATH=/mnt/mxe
+
+CC=$MXE_PATH/usr/bin/i686-w64-mingw32.static-gcc \
+AR=$MXE_PATH/usr/bin/i686-w64-mingw32.static-ar \
+CFLAGS="-DSTATICLIB -I$MXE_PATH/usr/i686-w64-mingw32.static/include" \
+LDFLAGS="-L$MXE_PATH/usr/i686-w64-mingw32.static/lib" \
+make libminiupnpc.a
+
+mkdir $MXE_PATH/usr/i686-w64-mingw32.static/include/miniupnpc
+cp *.h $MXE_PATH/usr/i686-w64-mingw32.static/include/miniupnpc
+cp libminiupnpc.a $MXE_PATH/usr/i686-w64-mingw32.static/lib
+
+
+Compile:
+Code:
+
+./compile-m.sh
+
+
+Step 5.
+Yay! Making our environment is done! Now we can compile usde.
+
+Add mxe bins to PATH:
+Edit your paths file
+Code:
+
+export PATH=/mnt/mxe/usr/bin:$PATH
+
+
+Download and unpack usde sources:
+Code:
+
+cd /mnt
+git clone https://github.com/owner232/usde-master
+
+
+Make bash script for compilation:
+Code:
+
+cd /mnt/usde
+touch compile-blk.sh
+chmod ugo+x compile-blk.sh
+
+
+Content of compile-blk.sh:
+Code:
+
+#!/bin/bash
+MXE_INCLUDE_PATH=/mnt/mxe/usr/i686-w64-mingw32.static/include
+MXE_LIB_PATH=/mnt/mxe/usr/i686-w64-mingw32.static/lib
+
+i686-w64-mingw32.static-qmake-qt5 \
+	BOOST_LIB_SUFFIX=-mt \
+	BOOST_THREAD_LIB_SUFFIX=_win32-mt \
+	BOOST_INCLUDE_PATH=$MXE_INCLUDE_PATH/boost \
+	BOOST_LIB_PATH=$MXE_LIB_PATH \
+	OPENSSL_INCLUDE_PATH=$MXE_INCLUDE_PATH/openssl \
+	OPENSSL_LIB_PATH=$MXE_LIB_PATH \
+	BDB_INCLUDE_PATH=$MXE_INCLUDE_PATH \
+	BDB_LIB_PATH=$MXE_LIB_PATH \
+	MINIUPNPC_INCLUDE_PATH=$MXE_INCLUDE_PATH \
+	MINIUPNPC_LIB_PATH=$MXE_LIB_PATH \
+	QMAKE_LRELEASE=/mnt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease usde-qt.pro
+
+make -f Makefile.Release
+
+
+Compile:
+Code:
+
+./compile-usde.sh
+
+
+And that all.
+Our usde-qt.exe placed in /mnt/usde/release
+
+
+
+
+
+
+
+
+
+
+
+
+
+_______________________________
 See readme-qt.rst for instructions on building USDE QT,
 the graphical USDE.
 
