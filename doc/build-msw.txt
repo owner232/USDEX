@@ -84,4 +84,6 @@ USDE
 DOS prompt:
 cd \USDE\src
 mingw32-make -f makefile.mingw
-strip USDEd.exe
+strip USDEd.exe 
+
+Strip can be used on the windows executables
