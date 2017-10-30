@@ -8,8 +8,8 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;USDE&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;USDE&lt;/b&gt; versao</translation>
+        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
+        <translation>&lt;b&gt; USDE&lt;/b&gt; versao</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -261,8 +261,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-58"/>
-        <source>USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>USDE vai fechar agora para concluir o processo de criptografia. Lembre-se que a criptografia de sua carteira não pode proteger totalmente suas moedas de serem roubados por malwares infectem seu computador.</translation>
+        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation> USDE vai fechar agora para concluir o processo de criptografia. Lembre-se que a criptografia de sua carteira não pode proteger totalmente suas moedas de serem roubados por malwares infectem seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -470,8 +470,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-200"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -537,7 +537,7 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>USDE client</source>
+        <source> USDE client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
@@ -1055,7 +1055,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>USDE-Qt</source>
+        <source> USDE-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1555,12 +1555,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>USDE - Debug window</source>
+        <source> USDE - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>USDE Core</source>
+        <source> USDE Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1654,7 +1654,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
+        <source>0.00 USDE</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1724,7 +1724,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
+        <source>123.456 USDE</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2598,7 +2598,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>USDE version</source>
+        <source> USDE version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2972,13 +2972,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3109,7 +3109,7 @@ for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-98"/>
-        <source>USDE</source>
+        <source> USDE</source>
         <translation type="unfinished"/>
     </message>
     <message>

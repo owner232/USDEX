@@ -148,10 +148,10 @@ bool AppInit(int argc, char* argv[])
             // First part of help message is specific to bitcoind / RPC client
             std::string strUsage = _("USDE version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  USDEd [options]                     " + "\n" +
-                  "  USDEd [options] <command> [params]  " + _("Send command to -server or USDEd") + "\n" +
-                  "  USDEd [options] help                " + _("List commands") + "\n" +
-                  "  USDEd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "USDEd [options]                     " + "\n" +
+                  "USDEd [options] <command> [params]  " + _("Send command to -server or USDEd") + "\n" +
+                  "USDEd [options] help                " + _("List commands") + "\n" +
+                  "USDEd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -508,7 +508,7 @@ bool AppInit2()
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s.  USDE is probably already running."), strDataDir.c_str()));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. USDE is probably already running."), strDataDir.c_str()));
 
 #if !defined(WIN32) && !defined(QT_GUI)
     if (fDaemon)

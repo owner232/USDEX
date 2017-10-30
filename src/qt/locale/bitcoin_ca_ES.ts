@@ -8,8 +8,8 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;USDE&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;USDE&lt;/b&gt;</translation>
+        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt; USDE&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>USDE tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation> USDE tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -467,8 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -534,7 +534,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>USDE client</source>
+        <source> USDE client</source>
         <translation>Client USDE</translation>
     </message>
     <message numerus="yes">
@@ -1063,8 +1063,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>USDE-Qt</source>
-        <translation>USDE-Qt</translation>
+        <source> USDE-Qt</source>
+        <translation> USDE-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1563,12 +1563,12 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>USDE - Debug window</source>
-        <translation>USDE - Finestra Depuració</translation>
+        <source> USDE - Debug window</source>
+        <translation> USDE - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>USDE Core</source>
+        <source> USDE Core</source>
         <translation>Nucli USDE</translation>
     </message>
     <message>
@@ -1662,8 +1662,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 BC {0.00 ?}</translation>
+        <source>0.00 USDE</source>
+        <translation>123.456 USDE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1732,8 +1732,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 USDE</source>
+        <translation>123.456 USDE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2606,7 +2606,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>USDE version</source>
+        <source> USDE version</source>
         <translation>versió USDE</translation>
     </message>
     <message>
@@ -2981,24 +2981,24 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
 Es recomana utilitzar la següent contrasenya aleatòria:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (No cal recordar aquesta contrasenya)
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3129,8 +3129,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="-98"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+140"/>

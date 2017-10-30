@@ -8,7 +8,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;USDE&lt;/b&gt; version</source>
+        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
         <translation>&lt;b&gt;黑币客户端&lt;/b&gt; 版本</translation>
     </message>
     <message>
@@ -18,7 +18,7 @@ Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The USDE developers</source>
         <translation>版权所有 © 2009-2014 比特币Bitcoin开发组
 版权所有 © 2012-2014 新星币Novacoin开发组
-版权所有 © 2014 黑币USDE开发组</translation>
+版权所有 © 2014 黑币 USDE开发组</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -263,7 +263,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>黑币客户端即将关闭以完成加密过程。请记住，加密钱包并不能完全防止您的电子货币被入侵您计算机的木马软件盗窃。</translation>
     </message>
     <message>
@@ -472,7 +472,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>USDE</source>
+        <source> USDE</source>
         <translation>黑币</translation>
     </message>
     <message>
@@ -539,7 +539,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>USDE client</source>
+        <source> USDE client</source>
         <translation>黑币客户端</translation>
     </message>
     <message numerus="yes">
@@ -1065,8 +1065,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>USDE-Qt</source>
-        <translation>黑币客户端USDE-Qt</translation>
+        <source> USDE-Qt</source>
+        <translation>黑币客户端 USDE-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1565,12 +1565,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>USDE - Debug window</source>
+        <source> USDE - Debug window</source>
         <translation>黑币客户端-调试窗口</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>USDE Core</source>
+        <source> USDE Core</source>
         <translation>黑币核心进程</translation>
     </message>
     <message>
@@ -1664,8 +1664,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 BC {0.00 ?}</translation>
+        <source>0.00 USDE</source>
+        <translation>123.456 USDE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1734,8 +1734,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 USDE</source>
+        <translation>123.456 USDE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2608,7 +2608,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>USDE version</source>
+        <source> USDE version</source>
         <translation>黑币客户端 版本</translation>
     </message>
     <message>
@@ -2619,7 +2619,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Send command to -server or USDEd</source>
-        <translation>向-server服务器或USDEd发送命令</translation>
+        <translation>向-server服务器或 USDEd发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2991,24 +2991,24 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </source>
         <translation>%s, 必须在配置文件里设置rpc密码:
  %s
 建议使用如下的随机密码:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (不需要记住该密码)
 用户名和密码不能重复。
 如果该文件不存在，请自行创建并设为用户本身只读权限。
 建议创建提示以监测可能的问题，如：
-alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3142,7 +3142,7 @@ alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-98"/>
-        <source>USDE</source>
+        <source> USDE</source>
         <translation>黑币</translation>
     </message>
     <message>

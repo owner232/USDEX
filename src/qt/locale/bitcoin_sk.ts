@@ -8,8 +8,8 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;USDE&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;USDEu&lt;/b&gt;</translation>
+        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt; USDEu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>USDE sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation> USDE sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -539,8 +539,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>USDE client</source>
-        <translation>USDE klient</translation>
+        <source> USDE client</source>
+        <translation> USDE klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
@@ -1071,8 +1071,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>USDE-Qt</source>
-        <translation>USDE-Qt</translation>
+        <source> USDE-Qt</source>
+        <translation> USDE-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1571,12 +1571,12 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>USDE - Debug window</source>
-        <translation>USDE - Ladiace okno</translation>
+        <source> USDE - Debug window</source>
+        <translation> USDE - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>USDE Core</source>
+        <source> USDE Core</source>
         <translation>Jadro USDE</translation>
     </message>
     <message>
@@ -1670,8 +1670,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 BC {0.00 ?}</translation>
+        <source>0.00 USDE</source>
+        <translation>123.456 USDE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1740,8 +1740,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 USDE</source>
+        <translation>123.456 USDE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2614,8 +2614,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>USDE version</source>
-        <translation>USDE verzia</translation>
+        <source> USDE version</source>
+        <translation> USDE verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2989,24 +2989,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3135,8 +3135,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com<
     </message>
     <message>
         <location line="-98"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+140"/>

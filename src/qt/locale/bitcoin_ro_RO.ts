@@ -8,8 +8,8 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;USDE&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;USDE&lt;/b&gt;</translation>
+        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt; USDE&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -263,8 +263,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-58"/>
-        <source>USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>USDE se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation> USDE se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -472,8 +472,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-200"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -539,7 +539,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>USDE client</source>
+        <source> USDE client</source>
         <translation>Clientul USDE</translation>
     </message>
     <message numerus="yes">
@@ -1072,8 +1072,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>USDE-Qt</source>
-        <translation>USDE-Qt</translation>
+        <source> USDE-Qt</source>
+        <translation> USDE-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1572,13 +1572,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>USDE - Debug window</source>
-        <translation>USDE - fereastră depanare</translation>
+        <source> USDE - Debug window</source>
+        <translation> USDE - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>USDE Core</source>
-        <translation>USDE Core</translation>
+        <source> USDE Core</source>
+        <translation> USDE Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1671,8 +1671,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 BC {0.00 ?}</translation>
+        <source>0.00 USDE</source>
+        <translation>123.456 USDE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1741,8 +1741,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 USDE</source>
+        <translation>123.456 USDE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2615,7 +2615,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>USDE version</source>
+        <source> USDE version</source>
         <translation>Versiune USDE</translation>
     </message>
     <message>
@@ -2990,22 +2990,22 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
-Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=USDErpc
+Este recomandat să folosiți următoarea parolă generată aleator: rpcuser= USDErpc
 rpcpassword=%s
 (nu trebuie să țineți minte această parolă)
 Username-ul și parola NU TREBUIE să fie aceleași.
 Dacă fișierul nu există, creați-l cu drepturi de citire doar de către deținător.
 Este deasemenea recomandat să setați alertnotify pentru a fi notificat de probleme;
-de exemplu: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+de exemplu: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3135,8 +3135,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-98"/>
-        <source>USDE</source>
-        <translation>USDE</translation>
+        <source> USDE</source>
+        <translation> USDE</translation>
     </message>
     <message>
         <location line="+140"/>

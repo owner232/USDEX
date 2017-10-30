@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>USDE - Debug window</string>
+   <string> USDE - Debug window</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(:/images/gr);</string>
@@ -869,7 +869,7 @@
           </font>
          </property>
          <property name="text">
-          <string>USDE Core</string>
+          <string> USDE Core</string>
          </property>
         </widget>
        </item>

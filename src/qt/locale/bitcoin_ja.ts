@@ -8,7 +8,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;USDE&lt;/b&gt; version</source>
+        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
         <translation>&lt;b&gt;ブラックコイン&lt;/b&gt;バージョン</translation>
     </message>
     <message>
@@ -263,7 +263,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="-58"/>
-        <source>USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>ただいま、暗号化手順を完成するため、ブラックコインQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
     </message>
     <message>
@@ -472,7 +472,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <location line="-200"/>
-        <source>USDE</source>
+        <source> USDE</source>
         <translation>ブラックコイン</translation>
     </message>
     <message>
@@ -539,7 +539,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>USDE client</source>
+        <source> USDE client</source>
         <translation>ブラックコインクライアントソフトウェア</translation>
     </message>
     <message numerus="yes">
@@ -1071,7 +1071,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>USDE-Qt</source>
+        <source> USDE-Qt</source>
         <translation>ブラックコインQT</translation>
     </message>
     <message>
@@ -1571,12 +1571,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>USDE - Debug window</source>
+        <source> USDE - Debug window</source>
         <translation>ブラックコイン：デバッグウインドウ</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>USDE Core</source>
+        <source> USDE Core</source>
         <translation>ブラックコインコア</translation>
     </message>
     <message>
@@ -1670,8 +1670,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BC</source>
-        <translation>123.456 BC {0.00 ?}</translation>
+        <source>0.00 USDE</source>
+        <translation>123.456 USDE {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1740,8 +1740,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BC</source>
-        <translation>123.456 BC</translation>
+        <source>123.456 USDE</source>
+        <translation>123.456 USDE</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -2614,7 +2614,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>USDE version</source>
+        <source> USDE version</source>
         <translation>ブラックコインバージョン</translation>
     </message>
     <message>
@@ -2989,18 +2989,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
 </source>
         <translation>%s, 設定ファイル：%sでrpcpasswordのパスワードを入力しなければならい
 
 このランダムパスワードのおすすめです：
-rpcuser=USDErpc
+rpcuser= USDErpc
 rpcpassword=%s
 (このパサワードを覚えなくても大丈夫です)
 ユーザ名とパスワードは同じであってはなりません。
@@ -3136,7 +3136,7 @@ rpcpassword=%s
     </message>
     <message>
         <location line="-98"/>
-        <source>USDE</source>
+        <source> USDE</source>
         <translation>ブラックコイン</translation>
     </message>
     <message>
