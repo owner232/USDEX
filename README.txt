@@ -1,7 +1,8 @@
-#General Introduction of USDEX
+General Introduction of USDEX
+
 USDEX is a secure and energy efficient PoW/PoS coin. USDEX uses a faster PoW distribution mechanism to distribute the initial coins, then after few days the coin is basically transferred to a pure PoS coin, where the generation of the coin is mainly through the PoS interests.
 
-#USDEX Coin Specification
+USDEX Coin Specification
 
 Maximum 232 million USDEX will ever exist to the community.
 
