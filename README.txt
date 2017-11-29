@@ -1,9 +1,9 @@
-#General Introduction of USDEXcoin
-USDEX Coin is a secure and energy efficient PoW/PoS coin. USDEX Coin uses a faster PoW distribution mechanism to distribute the initial coins, then after few days the coin is basically transferred to a pure PoS coin, where the generation of the coin is mainly through the PoS interests.
+#General Introduction of USDEX
+USDEX is a secure and energy efficient PoW/PoS coin. USDEX uses a faster PoW distribution mechanism to distribute the initial coins, then after few days the coin is basically transferred to a pure PoS coin, where the generation of the coin is mainly through the PoS interests.
 
 #USDEX Coin Specification
 
-Maximum 232 million USDEX coin will ever exist to the community.
+Maximum 232 million USDEX will ever exist to the community.
 
 USDEX coin adopt a variable PoS rate that will be given periodically payout as per following list,
 - 1st 6 months -> 60% (10% per month)
@@ -14,10 +14,10 @@ USDEX coin adopt a variable PoS rate that will be given periodically payout as p
 - 6th 6 months -> 10% (1.4 per month and ongoing.)
 
 #How are they used?
-The USDEX coins are used by USDEX community members for USDEX services and to store and invest the wealth in a non-government controlled currency. The USDEX coins will also be used  as payment system on number of USDEX partner websites.
+The USDEX coins are used by USDEX community members for USDEX services and to store and invest the wealth in a non-government controlled currency. The USDEX will also be used  as payment system on number of USDEX partner websites.
 
 #How are they produced?
-USDEX coin uses a special algorithm called the POW/POS to secure the USDEX Coin network. The moment you acquire USDEX Coin it becomes an interest bearing asset with 120% return per year through PoS minting. All you have to do to earn with this method is to hold coins in your USDEX-QT wallet. In addition to PoS minting, USDEX coin can be mined with CPU/GPU and does not need an ASIC miner like Bitcoin does.
+USDEX uses a special algorithm called the POW/POS to secure the USDEX network. The moment you acquire USDEX it becomes an interest bearing asset with 120% return per year through PoS minting. All you have to do to earn with this method is to hold coins in your USDEX-QT wallet. In addition to PoS minting, USDEX coin can be mined with CPU/GPU and does not need an ASIC miner like Bitcoin does.
 
 -USDEX
 
