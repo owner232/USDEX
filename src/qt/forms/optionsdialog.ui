@@ -3093,10 +3093,10 @@ background-image: url(:/images/gr);</string>
           </palette>
          </property>
          <property name="toolTip">
-          <string>Automatically start USDE after logging in to the system.</string>
+          <string>Automatically start USDEX after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start USDE on system login</string>
+          <string>&amp;Start USDEX on system login</string>
          </property>
         </widget>
        </item>
@@ -3656,7 +3656,7 @@ background-image: url(:/images/gr);</string>
           </palette>
          </property>
          <property name="toolTip">
-          <string>Automatically open the USDE client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the USDEX client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -4081,7 +4081,7 @@ background-image: url(:/images/gr);</string>
           </palette>
          </property>
          <property name="toolTip">
-          <string>Connect to the USDE network through a SOCKS proxy (e.g. when connecting through Tor).</string>
+          <string>Connect to the USDEX network through a SOCKS proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS proxy:</string>
@@ -7575,7 +7575,7 @@ background-image: url(:/images/gr);</string>
             </palette>
            </property>
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting USDE.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting USDEX.</string>
            </property>
           </widget>
          </item>
@@ -8853,7 +8853,7 @@ background-image: url(:/images/gr);</string>
           </palette>
          </property>
          <property name="toolTip">
-          <string>Whether to show USDE addresses in the transaction list or not.</string>
+          <string>Whether to show USDEX addresses in the transaction list or not.</string>
          </property>
          <property name="text">
           <string>&amp;Display addresses in transaction list</string>

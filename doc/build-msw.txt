@@ -7,7 +7,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building USDE QT, the
+See readme-qt.rst for instructions on building USDEX QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -79,11 +79,11 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-USDE
+USDEX
 -------
 DOS prompt:
-cd \USDE\src
+cd \USDEX\src
 mingw32-make -f makefile.mingw
-strip USDEd.exe 
+strip USDEXd.exe 
 
 Strip can be used on the windows executables

@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About USDE</source>
-        <translation>O USDE</translation>
+        <source>About USDEX</source>
+        <translation>O USDEX</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
-        <translation>&lt;b&gt; USDE&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt; USDEX&lt;/b&gt; version</source>
+        <translation>&lt;b&gt; USDEX&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The USDE developers</source>
+Copyright © 2014 The USDEX developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your USDE addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši USDE naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your USDEX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši USDEX naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a USDE address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva USDE naslova</translation>
+        <source>Sign a message to prove you own a USDEX address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva USDEX naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified USDE address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim USDE naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified USDEX address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim USDEX naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation> USDE se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source> USDEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation> USDEX se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about USDE</source>
-        <translation>Pokaži informacije o USDE</translation>
+        <source>Show information about USDEX</source>
+        <translation>Pokaži informacije o USDEX</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a USDE address</source>
-        <translation>Pošlji kovance na USDE naslov</translation>
+        <source>Send coins to a USDEX address</source>
+        <translation>Pošlji kovance na USDEX naslov</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for USDE</source>
-        <translation>Spremeni nastavitve za USDE</translation>
+        <source>Modify configuration options for USDEX</source>
+        <translation>Spremeni nastavitve za USDEX</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-200"/>
-        <source> USDE</source>
-        <translation> USDE</translation>
+        <source> USDEX</source>
+        <translation> USDEX</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About USDE</source>
-        <translation>&amp;O USDE</translation>
+        <source>&amp;About USDEX</source>
+        <translation>&amp;O USDEX</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source> USDE client</source>
-        <translation> USDE program</translation>
+        <source> USDEX client</source>
+        <translation> USDEX program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to USDE network</source>
-        <translation><numerusform>%n aktivne povezave na USDE omrežje</numerusform><numerusform>%n aktivnih povezav na USDE omrežje</numerusform><numerusform>%n aktivnih povezav na USDE omrežje</numerusform><numerusform>%n aktivnih povezav na USDE omrežje</numerusform></translation>
+        <source>%n active connection(s) to USDEX network</source>
+        <translation><numerusform>%n aktivne povezave na USDEX omrežje</numerusform><numerusform>%n aktivnih povezav na USDEX omrežje</numerusform><numerusform>%n aktivnih povezav na USDEX omrežje</numerusform><numerusform>%n aktivnih povezav na USDEX omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +657,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid USDE address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega USDE naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid USDEX address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega USDEX naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +717,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. USDE can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program USDE se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. USDEX can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program USDEX se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1051,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid USDE address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven USDE naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid USDEX address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven USDEX naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1070,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source> USDE-Qt</source>
-        <translation> USDE-Qt</translation>
+        <source> USDEX-Qt</source>
+        <translation> USDEX-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1143,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start USDE after logging in to the system.</source>
-        <translation>Avtomatično zaženi USDE ob zagonu sistema.</translation>
+        <source>Automatically start USDEX after logging in to the system.</source>
+        <translation>Avtomatično zaženi USDEX ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start USDE on system login</source>
-        <translation>&amp;Zaženi USDE ob prijavi v sistem</translation>
+        <source>&amp;Start USDEX on system login</source>
+        <translation>&amp;Zaženi USDEX ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1168,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the USDE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za USDE program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the USDEX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za USDEX program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the USDE network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na USDE omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the USDEX network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na USDEX omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting USDE.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu USDE aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting USDEX.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu USDEX aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1268,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show USDE addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza USDE naslovov v seznamu transakcij.</translation>
+        <source>Whether to show USDEX addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza USDEX naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1315,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting USDE.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu USDE aplikacije</translation>
+        <source>This setting will take effect after restarting USDEX.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu USDEX aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1334,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the USDE network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z USDE omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the USDEX network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z USDEX omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1550,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the USDE-Qt help message to get a list with possible USDE command-line options.</source>
-        <translation>Prikaži USDE-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice USDE aplikacije</translation>
+        <source>Show the USDEX-Qt help message to get a list with possible USDEX command-line options.</source>
+        <translation>Prikaži USDEX-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice USDEX aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1570,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source> USDE - Debug window</source>
-        <translation> USDE - okno za odpravljanje napak</translation>
+        <source> USDEX - Debug window</source>
+        <translation> USDEX - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source> USDE Core</source>
-        <translation> USDE jedro</translation>
+        <source> USDEX Core</source>
+        <translation> USDEX jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1585,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the USDE debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri USDE datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the USDEX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri USDEX datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the USDE RPC console.</source>
-        <translation>Dobrodošli v USDE RPC konzoli.</translation>
+        <source>Welcome to the USDEX RPC console.</source>
+        <translation>Dobrodošli v USDEX RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1669,8 +1669,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 USDE</source>
-        <translation>123.456 USDE {0.00 ?}</translation>
+        <source>0.00 USDEX</source>
+        <translation>123.456 USDEX {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1739,8 +1739,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 USDE</source>
-        <translation>123.456 USDE</translation>
+        <source>123.456 USDEX</source>
+        <translation>123.456 USDEX</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1754,8 +1754,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a USDE address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite USDE naslov (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a USDEX address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite USDEX naslov (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1854,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid USDE address</source>
-        <translation>OPOZORILO: Neveljaven USDE naslov</translation>
+        <source>WARNING: Invalid USDEX address</source>
+        <translation>OPOZORILO: Neveljaven USDEX naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1928,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a USDE address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite USDE naslov (npr. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a USDEX address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite USDEX naslov (npr. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1989,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this USDE address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva USDE naslova</translation>
+        <source>Sign the message to prove you own this USDEX address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva USDEX naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2021,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified USDE address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim USDE naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified USDEX address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim USDEX naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a USDE address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite USDE naslov (npr. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a USDEX address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite USDEX naslov (npr. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter USDE signature</source>
-        <translation>Vnesite USDE podpis</translation>
+        <source>Enter USDEX signature</source>
+        <translation>Vnesite USDEX podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2613,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source> USDE version</source>
-        <translation> USDE različica</translation>
+        <source> USDEX version</source>
+        <translation> USDEX različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,7 +2623,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or USDEd</source>
+        <source>Send command to -server or USDEXd</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2643,13 +2643,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: USDE.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: USDE.conf)</translation>
+        <source>Specify configuration file (default: USDEX.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: USDEX.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: USDEd.pid)</source>
-        <translation>Določi pid datoteko (privzeto: USDE.pid)</translation>
+        <source>Specify pid file (default: USDEXd.pid)</source>
+        <translation>Določi pid datoteko (privzeto: USDEX.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2798,8 +2798,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong USDE will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno USDE ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong USDEX will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno USDEX ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,24 +2988,24 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser= USDErpc
+rpcuser= USDEXrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDEX Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
 Priporočeno je, da uporabite naslednje naključno geslo:
-rpcuser= USDErpc
+rpcuser= USDEXrpc
 rpcpassword=%s
 (tega gesla si vam ni potrebno zapomniti)
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot; USDE Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot; USDEX Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3130,13 +3130,13 @@ na primer: alertnotify=echo %%s | mail -s &quot; USDE Alarm&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  USDE is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija USDE je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  USDEX is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija USDEX je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source> USDE</source>
-        <translation> USDE</translation>
+        <source> USDEX</source>
+        <translation> USDEX</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3170,13 @@ na primer: alertnotify=echo %%s | mail -s &quot; USDE Alarm&quot; admin@foo.com
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of USDE</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo USDE</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of USDEX</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo USDEX</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart USDE to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite USDE za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart USDEX to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite USDEX za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3245,8 @@ na primer: alertnotify=echo %%s | mail -s &quot; USDE Alarm&quot; admin@foo.com
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. USDE is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča USDE aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. USDEX is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča USDEX aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>

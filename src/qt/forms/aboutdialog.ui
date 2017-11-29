@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About USDE</string>
+   <string>About USDEX</string>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
@@ -275,7 +275,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>&lt;b&gt; USDE&lt;/b&gt; version</string>
+          <string>&lt;b&gt; USDEX&lt;/b&gt; version</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -617,7 +617,7 @@
        </property>
        <property name="text">
         <string>Copyright © 2009-2017 The Bitcoin developers
-Copyright © 2017 The USDE developers
+Copyright © 2017 The USDEX developers
 Wallet Redesigned by Owner232 &amp; Supercon99</string>
        </property>
        <property name="textInteractionFlags">

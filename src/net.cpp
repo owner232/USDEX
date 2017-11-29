@@ -372,7 +372,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET / HTTP/1.1\r\n"
                      "Host: checkip.dyndns.org\r\n"
-                     "User-Agent: USDE\r\n"
+                     "User-Agent: USDEX\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -391,7 +391,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
                      "Host: www.showmyip.com\r\n"
-                     "User-Agent: USDE\r\n"
+                     "User-Agent: USDEX\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -408,7 +408,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("USDE-ext-ip");
+    RenameThread("USDEX-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -749,7 +749,7 @@ void SocketSendData(CNode *pnode)
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("USDE-net");
+    RenameThread("USDEX-net");
 
     try
     {
@@ -1078,7 +1078,7 @@ void ThreadSocketHandler2(void* parg)
 void ThreadMapPort(void* parg)
 {
     // Make this thread recognisable as the UPnP thread
-    RenameThread("USDE-UPnP");
+    RenameThread("USDEX-UPnP");
 
     try
     {
@@ -1139,7 +1139,7 @@ void ThreadMapPort2(void* parg)
             }
         }
 
-        string strDesc = "USDE " + FormatFullVersion();
+        string strDesc = "USDEX " + FormatFullVersion();
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1244,7 +1244,7 @@ static const char *strDNSSeed[][2] = {
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("USDE-dnsseed");
+    RenameThread("USDEX-dnsseed");
 
     try
     {
@@ -1338,7 +1338,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("USDE-adrdump");
+    RenameThread("USDEX-adrdump");
 
     try
     {
@@ -1353,7 +1353,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("USDE-opencon");
+    RenameThread("USDEX-opencon");
 
     try
     {
@@ -1534,7 +1534,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("USDE-opencon");
+    RenameThread("USDEX-opencon");
 
     try
     {
@@ -1665,7 +1665,7 @@ bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOu
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("USDE-msghand");
+    RenameThread("USDEX-msghand");
 
     try
     {
@@ -1831,7 +1831,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. USDE is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. USDEX is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1912,7 +1912,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("USDE-start");
+    RenameThread("USDEX-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore

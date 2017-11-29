@@ -3883,7 +3883,7 @@
             </palette>
            </property>
            <property name="toolTip">
-            <string>Sign the message to prove you own this USDE address</string>
+            <string>Sign the message to prove you own this USDEX address</string>
            </property>
            <property name="text">
             <string>&amp;Sign Message</string>
@@ -7587,7 +7587,7 @@
             </palette>
            </property>
            <property name="toolTip">
-            <string>Verify the message to ensure it was signed with the specified USDE address</string>
+            <string>Verify the message to ensure it was signed with the specified USDEX address</string>
            </property>
            <property name="text">
             <string>&amp;Verify Message</string>

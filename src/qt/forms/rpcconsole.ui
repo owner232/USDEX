@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string> USDE - Debug window</string>
+   <string> USDEX - Debug window</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(:/images/gr);</string>
@@ -869,7 +869,7 @@
           </font>
          </property>
          <property name="text">
-          <string> USDE Core</string>
+          <string> USDEX Core</string>
          </property>
         </widget>
        </item>
@@ -11530,7 +11530,7 @@
           </palette>
          </property>
          <property name="toolTip">
-          <string>Open the USDE debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the USDEX debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -12386,7 +12386,7 @@
           </palette>
          </property>
          <property name="toolTip">
-          <string>Show the USDE-Qt help message to get a list with possible USDE command-line options.</string>
+          <string>Show the USDEX-Qt help message to get a list with possible USDEX command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>

@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About USDE</source>
+        <source>About USDEX</source>
         <translation>عن البلاك كوين</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt; USDE&lt;/b&gt; version</source>
+        <source>&lt;b&gt; USDEX&lt;/b&gt; version</source>
         <translation>جزء البلاك كوين</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The USDE developers</source>
+Copyright © 2014 The USDEX developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,7 +58,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your USDE addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your USDEX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>هذه هي عناوين البلاك كوين لاستقبال الدفعات. يمكن أن تعطي عنوان مختلف لكل مرسل من اجل أن تتابع من يرسل لك.</translation>
     </message>
     <message>
@@ -73,7 +73,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a USDE address</source>
+        <source>Sign a message to prove you own a USDEX address</source>
         <translation>التوقيع علي رسالة لاثبات بانك تملك عنوان البلاك كوين</translation>
     </message>
     <message>
@@ -88,7 +88,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified USDE address</source>
+        <source>Verify a message to ensure it was signed with a specified USDEX address</source>
         <translation>تحقق من الرسالة لتثبت بانه تم توقيعه بعنوان بلاك كوين محدد</translation>
     </message>
     <message>
@@ -256,7 +256,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source> USDE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source> USDEX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>بلاك كوين</translation>
     </message>
     <message>
@@ -372,7 +372,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about USDE</source>
+        <source>Show information about USDEX</source>
         <translation>اظهار المعلومات عن البلاك كوين</translation>
     </message>
     <message>
@@ -422,12 +422,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a USDE address</source>
+        <source>Send coins to a USDEX address</source>
         <translation>ارسال البلاك كوين الي عنوان اخر</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for USDE</source>
+        <source>Modify configuration options for USDEX</source>
         <translation>تعديل خيارات التكوين للبلاك كوين</translation>
     </message>
     <message>
@@ -467,7 +467,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source> USDE</source>
+        <source> USDEX</source>
         <translation>البلاك كوين</translation>
     </message>
     <message>
@@ -477,7 +477,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About USDE</source>
+        <source>&amp;About USDEX</source>
         <translation>عن البلاك كوين</translation>
     </message>
     <message>
@@ -534,12 +534,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source> USDE client</source>
+        <source> USDEX client</source>
         <translation>برنامج البلاك كوين</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to USDE network</source>
+        <source>%n active connection(s) to USDEX network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -650,7 +650,7 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid USDE address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid USDEX address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -710,7 +710,7 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. USDE can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. USDEX can no longer continue safely and will quit.</source>
         <translation>خطا فادح! بلاك كوين لا يمكن أن يستمر جاري الاغلاق</translation>
     </message>
 </context>
@@ -1031,7 +1031,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid USDE address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid USDEX address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1050,7 +1050,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source> USDE-Qt</source>
+        <source> USDEX-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1123,12 +1123,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start USDE after logging in to the system.</source>
+        <source>Automatically start USDEX after logging in to the system.</source>
         <translation>بد البلاك كوين تلقائي عند الدخول الي الجهاز</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start USDE on system login</source>
+        <source>&amp;Start USDEX on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1148,7 +1148,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the USDE client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the USDEX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1158,7 +1158,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the USDE network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the USDEX network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1233,7 +1233,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting USDE.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting USDEX.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1248,7 +1248,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show USDE addresses in the transaction list or not.</source>
+        <source>Whether to show USDEX addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1295,7 +1295,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting USDE.</source>
+        <source>This setting will take effect after restarting USDEX.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1314,7 +1314,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the USDE network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the USDEX network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1530,7 +1530,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the USDE-Qt help message to get a list with possible USDE command-line options.</source>
+        <source>Show the USDEX-Qt help message to get a list with possible USDEX command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1550,12 +1550,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source> USDE - Debug window</source>
+        <source> USDEX - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source> USDE Core</source>
+        <source> USDEX Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1565,7 +1565,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the USDE debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the USDEX debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1575,7 +1575,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the USDE RPC console.</source>
+        <source>Welcome to the USDEX RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1649,7 +1649,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 USDE</source>
+        <source>0.00 USDEX</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1719,7 +1719,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 USDE</source>
+        <source>123.456 USDEX</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1734,7 +1734,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a USDE address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a USDEX address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1834,7 +1834,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid USDE address</source>
+        <source>WARNING: Invalid USDEX address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1908,7 +1908,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a USDE address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a USDEX address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation>ادخال عنوان البلاك كوين (مثلا 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
@@ -1969,7 +1969,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this USDE address</source>
+        <source>Sign the message to prove you own this USDEX address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2001,7 +2001,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified USDE address</source>
+        <source>Verify the message to ensure it was signed with the specified USDEX address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2012,7 +2012,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a USDE address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a USDEX address (e.g. 8dpZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2022,7 +2022,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter USDE signature</source>
+        <source>Enter USDEX signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2593,7 +2593,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source> USDE version</source>
+        <source> USDEX version</source>
         <translation>جزع البلاك كوين</translation>
     </message>
     <message>
@@ -2603,7 +2603,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or USDEd</source>
+        <source>Send command to -server or USDEXd</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2623,12 +2623,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: USDE.conf)</source>
+        <source>Specify configuration file (default: USDEX.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: USDEd.pid)</source>
+        <source>Specify pid file (default: USDEXd.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2778,7 +2778,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong USDE will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong USDEX will not work properly.</source>
         <translation>تحذير : تأكد من ساعة وتاريخ الكمبيوتر! اذا ساعة غير صحيحة بلاك كوين لن يعمل بشكل صحيح</translation>
     </message>
     <message>
@@ -2967,13 +2967,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser= USDErpc
+rpcuser= USDEXrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot; USDEX Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3099,12 +3099,12 @@ for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  USDE is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  USDEX is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source> USDE</source>
+        <source> USDEX</source>
         <translation>البلاك كوين</translation>
     </message>
     <message>
@@ -3139,12 +3139,12 @@ for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of USDE</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of USDEX</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart USDE to complete</source>
+        <source>Wallet needed to be rewritten: restart USDEX to complete</source>
         <translation>المحفظة يجب أن يعاد كتابته : أعد البلاك كوين لتكتمل</translation>
     </message>
     <message>
@@ -3214,7 +3214,7 @@ for example: alertnotify=echo %%s | mail -s &quot; USDE Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. USDE is probably already running.</source>
+        <source>Unable to bind to %s on this computer. USDEX is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

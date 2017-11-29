@@ -553,7 +553,7 @@
       </palette>
      </property>
      <property name="text">
-      <string>These are your USDE addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
+      <string>These are your USDEX addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -2710,7 +2710,7 @@
         </palette>
        </property>
        <property name="toolTip">
-        <string>Sign a message to prove you own a USDE address</string>
+        <string>Sign a message to prove you own a USDEX address</string>
        </property>
        <property name="text">
         <string>Sign &amp;Message</string>
@@ -3139,7 +3139,7 @@
         </palette>
        </property>
        <property name="toolTip">
-        <string>Verify a message to ensure it was signed with a specified USDE address</string>
+        <string>Verify a message to ensure it was signed with a specified USDEX address</string>
        </property>
        <property name="text">
         <string>&amp;Verify Message</string>
