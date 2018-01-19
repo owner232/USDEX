@@ -47,6 +47,7 @@
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
 		<file alias="bkg">res/images/bkg.png</file>
+		<file alias="bkgmac">res/images/bkgmac.png</file>
 		<file alias="bkg2">res/images/bkg2.png</file>
 		<file alias="gr">res/images/gr.png</file>
         <file alias="splash">res/images/splash3.png</file>

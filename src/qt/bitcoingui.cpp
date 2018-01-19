@@ -77,13 +77,16 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     rpcConsole(0),
     nWeight(0)
 {
-    setFixedSize(1190, 645);
     setWindowTitle(tr("USDEX") + " - " + tr("Wallet"));
-	qApp->setStyleSheet("QMainWindow { background-image:url(:images/bkg);border:none;font-family:'Open Sans,sans-serif'; }");
+
 #ifndef Q_OS_MAC
+    setFixedSize(1190, 645);
+    qApp->setStyleSheet("QMainWindow { background-image:url(:images/bkg);border:none;font-family:'Open Sans,sans-serif'; }");
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
 #else
+    setFixedSize(1190, 595);
+    qApp->setStyleSheet("QMainWindow { background-image:url(:images/bkgmac);border:none;font-family:'Open Sans,sans-serif'; }");
     setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
 #endif
