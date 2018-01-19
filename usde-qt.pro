@@ -30,6 +30,21 @@ MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
 QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
 QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 
+mac {
+    BOOST_LIB_SUFFIX=
+    BOOST_INCLUDE_PATH=/usr/local/opt/boost@1.55/include
+    BOOST_LIB_PATH=/usr/local/opt/boost@1.55/lib
+    BDB_INCLUDE_PATH=/opt/local/include/db48
+    BDB_LIB_PATH=/opt/local/lib/db48
+    OPENSSL_INCLUDE_PATH=/opt/local/include
+    OPENSSL_LIB_PATH=/opt/local/lib/
+    MINIUPNPC_LIB_SUFFIX=
+    MINIUPNPC_INCLUDE_PATH=/opt/local/include
+    MINIUPNPC_LIB_PATH=/opt/local/lib/
+    QRENCODE_INCLUDE_PATH=/opt/local/include
+    QRENCODE_LIB_PATH=/opt/local/lib
+}
+
 # Dependency library locations can be customized with:
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
@@ -41,7 +56,7 @@ UI_DIR = build
 # use: qmake "RELEASE=1"
 contains(RELEASE, 1) {
     # Mac: compile for maximum compatibility (10.5, 32-bit)
-    macx:QMAKE_CXXFLAGS += -mmacosx-version-min=10.5 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk
+    macx:QMAKE_CXXFLAGS += -mmacosx-version-min=10.5 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 
     !windows:!macx {
         # Linux: static link
@@ -148,8 +163,7 @@ contains(USE_O3, 1) {
     QMAKE_CFLAGS += -msse2
 }
 
-QMAKE_CXXFLAGS += -march=i686
-
+linux:QMAKE_CXXFLAGS += -march=i686
 QMAKE_CXXFLAGS_WARN_ON = -fdiagnostics-show-option -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector
 
 # Input
