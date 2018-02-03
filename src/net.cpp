@@ -1311,9 +1311,7 @@ void ThreadDNSAddressSeed2(void* parg)
 
 
 
-unsigned int pnSeed[] =
-{
-};
+unsigned int* pnSeed = NULL;
 
 void DumpAddresses()
 {
@@ -1322,7 +1320,7 @@ void DumpAddresses()
     CAddrDB adb;
     adb.Write(addrman);
 
-    printf("Flushed %d addresses to peers.dat  %"PRId64"ms\n",
+    printf("Flushed %d addresses to peers.dat  %" PRId64 "ms\n",
            addrman.size(), GetTimeMillis() - nStart);
 }
 
@@ -1461,19 +1459,22 @@ void ThreadOpenConnections2(void* parg)
         if (addrman.size()==0 && (GetTime() - nStart > 60) && !fTestNet)
         {
             std::vector<CAddress> vAdd;
-            for (unsigned int i = 0; i < ARRAYLEN(pnSeed); i++)
-            {
-                // It'll only connect to one or two seed nodes because once it connects,
-                // it'll get a pile of addresses with newer timestamps.
-                // Seed nodes are given a random 'last seen time' of between one and two
-                // weeks ago.
-                const int64_t nOneWeek = 7*24*60*60;
-                struct in_addr ip;
-                memcpy(&ip, &pnSeed[i], sizeof(ip));
-                CAddress addr(CService(ip, GetDefaultPort()));
-                addr.nTime = GetTime()-GetRand(nOneWeek)-nOneWeek;
-                vAdd.push_back(addr);
-            }
+			if (pnSeed != NULL) 
+			{
+				for (unsigned int i = 0; i < ARRAYLEN(pnSeed); i++)
+				{
+					// It'll only connect to one or two seed nodes because once it connects,
+					// it'll get a pile of addresses with newer timestamps.
+					// Seed nodes are given a random 'last seen time' of between one and two
+					// weeks ago.
+					const int64_t nOneWeek = 7 * 24 * 60 * 60;
+					struct in_addr ip;
+					memcpy(&ip, &pnSeed[i], sizeof(ip));
+					CAddress addr(CService(ip, GetDefaultPort()));
+					addr.nTime = GetTime() - GetRand(nOneWeek) - nOneWeek;
+					vAdd.push_back(addr);
+				}
+			}
             addrman.Add(vAdd, CNetAddr("127.0.0.1"));
         }
 

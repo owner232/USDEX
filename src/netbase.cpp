@@ -14,6 +14,11 @@
 #include "strlcpy.h"
 #include <boost/algorithm/string/case_conv.hpp> // for to_lower()
 
+#ifdef _MSC_VER
+#include <BaseTsd.h>
+typedef SSIZE_T ssize_t;
+#endif
+
 using namespace std;
 
 // Settings

@@ -54,7 +54,7 @@ enum
     SER_BLOCKHEADERONLY = (1 << 17),
 };
 
-#define IMPLEMENT_SERIALIZE(statements)    \
+#define IMPLEMENT_SERIALIZE(...)    \
     unsigned int GetSerializeSize(int nType, int nVersion) const  \
     {                                           \
         CSerActionGetSerializeSize ser_action;  \
@@ -66,7 +66,7 @@ enum
         assert(fGetSize||fWrite||fRead); /* suppress warning */ \
         s.nType = nType;                        \
         s.nVersion = nVersion;                  \
-        {statements}                            \
+        do{__VA_ARGS__}while(0);                 \
         return nSerSize;                        \
     }                                           \
     template<typename Stream>                   \
@@ -78,7 +78,7 @@ enum
         const bool fRead = false;               \
         unsigned int nSerSize = 0;              \
         assert(fGetSize||fWrite||fRead); /* suppress warning */ \
-        {statements}                            \
+        do{__VA_ARGS__}while(0);                 \
     }                                           \
     template<typename Stream>                   \
     void Unserialize(Stream& s, int nType, int nVersion)  \
@@ -89,7 +89,7 @@ enum
         const bool fRead = true;                \
         unsigned int nSerSize = 0;              \
         assert(fGetSize||fWrite||fRead); /* suppress warning */ \
-        {statements}                            \
+        do{__VA_ARGS__}while(0);                 \
     }
 
 #define READWRITE(obj)      (nSerSize += ::SerReadWrite(s, (obj), nType, nVersion, ser_action))
@@ -165,9 +165,14 @@ template<typename Stream> inline void Unserialize(Stream& s, bool& a, int, int=0
 //
 inline unsigned int GetSizeOfCompactSize(uint64_t nSize)
 {
+#ifdef WIN32
+//Somthing is including these from windows.h, even tho NOMINMAX is defined, causing the following code to break.
+#undef min
+#undef max
+#endif
     if (nSize < 253)             return sizeof(unsigned char);
-    else if (nSize <= std::numeric_limits<unsigned short>::max()) return sizeof(unsigned char) + sizeof(unsigned short);
-    else if (nSize <= std::numeric_limits<unsigned int>::max())  return sizeof(unsigned char) + sizeof(unsigned int);
+    else if (nSize <= (std::numeric_limits<unsigned short>::max())) return sizeof(unsigned char) + sizeof(unsigned short);
+    else if (nSize <= (std::numeric_limits<unsigned int>::max()))  return sizeof(unsigned char) + sizeof(unsigned int);
     else                         return sizeof(unsigned char) + sizeof(uint64_t);
 }
 

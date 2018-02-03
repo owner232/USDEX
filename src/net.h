@@ -5,19 +5,21 @@
 #ifndef BITCOIN_NET_H
 #define BITCOIN_NET_H
 
-#include <deque>
-#include <boost/array.hpp>
-#include <boost/foreach.hpp>
-#include <openssl/rand.h>
-
 #ifndef WIN32
 #include <arpa/inet.h>
+#else
+#include <inttypes.h>
 #endif
 
 #include "mruset.h"
 #include "netbase.h"
 #include "protocol.h"
 #include "addrman.h"
+
+#include <deque>
+#include <boost/array.hpp>
+#include <boost/foreach.hpp>
+#include <openssl/rand.h>
 
 class CRequestTracker;
 class CNode;
@@ -377,7 +379,7 @@ public:
         // the key is the earliest time the request can be sent
         int64_t& nRequestTime = mapAlreadyAskedFor[inv];
         if (fDebugNet)
-            printf("askfor %s   %"PRId64" (%s)\n", inv.ToString().c_str(), nRequestTime, DateTimeStrFormat("%H:%M:%S", nRequestTime/1000000).c_str());
+            printf("askfor %s   %" PRId64 " (%s)\n", inv.ToString().c_str(), nRequestTime, DateTimeStrFormat("%H:%M:%S", nRequestTime/1000000).c_str());
 
         // Make sure not to reuse time indexes to keep things in the same order
         int64_t nNow = (GetTime() - 1) * 1000000;
