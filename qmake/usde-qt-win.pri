@@ -21,21 +21,25 @@
 
 #Boost
 isEmpty(BOOST_LIB_SUFFIX):BOOST_LIB_SUFFIX=-vc141-mt-1_65
+isEmpty(BOOST_DEBUG_LIB_SUFFIX):BOOST_DEBUG_LIB_SUFFIX=-vc141-mt-gd-1_65
 isEmpty(BOOST_INCLUDE_PATH):BOOST_INCLUDE_PATH=$$DEPENDENCY_FOLDER/boost_1_65_0
 isEmpty(BOOST_LIB_PATH):BOOST_LIB_PATH=$$DEPENDENCY_FOLDER/boost_1_65_0/stage/lib	
 
 #BerkeleyDB
 isEmpty(BDB_INCLUDE_PATH):BDB_INCLUDE_PATH=$$DEPENDENCY_FOLDER/db-5.3.21/build_windows
 isEmpty(BDB_LIB_PATH):BDB_LIB_PATH=$$DEPENDENCY_FOLDER/db-5.3.21/build_windows/Win32/Release	
+isEmpty(BDB_LIB_PATH_DEBUG):BDB_LIB_PATH_DEBUG=$$DEPENDENCY_FOLDER/db-5.3.21/build_windows/Win32/Debug
 
 #OpenSSL
 isEmpty(OPENSSL_INCLUDE_PATH):OPENSSL_INCLUDE_PATH=$$DEPENDENCY_FOLDER/OpenSSL_1_0_2-stable/inc32
 isEmpty(OPENSSL_LIB_PATH):OPENSSL_LIB_PATH=$$DEPENDENCY_FOLDER/OpenSSL_1_0_2-stable/out32
+isEmpty(OPENSSL_LIB_PATH_DEBUG):OPENSSL_LIB_PATH_DEBUG=$$DEPENDENCY_FOLDER/OpenSSL_1_0_2-stable/out32.dbg
 
 #LevelDB
 isEmpty(LEVELDB_INCLUDE_PATH):LEVELDB_INCLUDE_PATH=$$DEPENDENCY_FOLDER/leveldb-master/include
 isEmpty(LEVELDB_HELPER_INCLUDE_PATH):LEVELDB_HELPER_INCLUDE_PATH=$$DEPENDENCY_FOLDER/leveldb-master/helpers
 isEmpty(LEVELDB_LIB_PATH):LEVELDB_LIB_PATH=$$DEPENDENCY_FOLDER/leveldb-master/bin/Release
+isEmpty(LEVELDB_LIB_PATH_DEBUG):LEVELDB_LIB_PATH_DEBUG=$$DEPENDENCY_FOLDER/leveldb-master/bin/Debug
 
 #MiniUPNPC
 isEmpty(MINIUPNPC_LIB_SUFFIX):MINIUPNPC_LIB_SUFFIX=-miniupnpc
@@ -53,6 +57,11 @@ isEmpty(QRENCODE_LIB_PATH):QRENCODE_LIB_PATH=$$DEPENDENCY_FOLDER/qrencode-3.4.4/
 #Configure warning level, Release=1, Debug=3
 Debug|!isEmpty(MSVC_WARNINGLEVEL_3): QMAKE_CXXFLAGS_WARN_ON *= /W3
 else: QMAKE_CXXFLAGS_WARN_ON *= /W1
+
+#Enable incremental linking in debug mode
+Debug:QMAKE_LFLAGS *= /INCREMENTAL
+#Enable Multiprocessor compilation in debug mode
+Debug:QMAKE_CXXFLAGS *= /MP
 
 win32-msvc* {
     #MSVC
@@ -113,11 +122,15 @@ INCLUDEPATH += $$QRENCODE_INCLUDE_PATH
 INCLUDEPATH += $$LEVELDB_INCLUDE_PATH 
 INCLUDEPATH += $$LEVELDB_HELPER_INCLUDE_PATH
 
+Release:LIBS += $$join(BDB_LIB_PATH,,-L,) 
+Release:LIBS += $$join(OPENSSL_LIB_PATH,,-L,) 
+Release:LIBS += $$join(LEVELDB_LIB_PATH,,-L,)
 LIBS += $$join(BOOST_LIB_PATH,,-L,) 
-LIBS += $$join(BDB_LIB_PATH,,-L,) 
-LIBS += $$join(OPENSSL_LIB_PATH,,-L,) 
 LIBS += $$join(QRENCODE_LIB_PATH,,-L,)
-LIBS += $$join(LEVELDB_LIB_PATH,,-L,)
+
+Debug:LIBS += $$join(LEVELDB_LIB_PATH_DEBUG,,-L,)
+Debug:LIBS += $$join(BDB_LIB_PATH_DEBUG,,-L,)
+Debug:LIBS += $$join(OPENSSL_LIB_PATH_DEBUG,,-L,) 
 
 ##################################################
 #### Libs
@@ -134,14 +147,17 @@ win32-msvc* {
 LIBS += -llibeay32 -lssleay32
 
 #BerkeleyDB
-LIBS += -llibdb53
+Release:LIBS += -llibdb53
+Debug:LIBS += -llibdb53d
 
 #Boost
-LIBS += -llibboost_system$$BOOST_LIB_SUFFIX 
-LIBS += -llibboost_filesystem$$BOOST_LIB_SUFFIX 
-LIBS += -llibboost_program_options$$BOOST_LIB_SUFFIX 
-LIBS += -llibboost_thread$$BOOST_LIB_SUFFIX
-LIBS += -llibboost_chrono$$BOOST_LIB_SUFFIX
+Release:BLIBSUFFIX=$$BOOST_LIB_SUFFIX
+Debug:BLIBSUFFIX=$$BOOST_DEBUG_LIB_SUFFIX
+LIBS += -llibboost_system$$BLIBSUFFIX 
+LIBS += -llibboost_filesystem$$BLIBSUFFIX 
+LIBS += -llibboost_program_options$$BLIBSUFFIX 
+LIBS += -llibboost_thread$$BLIBSUFFIX
+LIBS += -llibboost_chrono$$BLIBSUFFIX
 
 #Misc
 LIBS += -lws2_32 -lshlwapi -lmswsock -lole32 -loleaut32 -luuid -lgdi32
