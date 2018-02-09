@@ -15,7 +15,6 @@ To Build
 You can also run the autocompile.py and follow the steps
 start in usdex root dir
 
-mkdir -p obj/zerocoin
 mkdir -p src/leveldb/build_detect_platform‏
 chmod +x src/leveldb/build_detect_platform‏
 cd src/
@@ -23,8 +22,7 @@ mkdir obj
 make -f makefile.unix            # Headless USDEX
 
 When it fails run this(again....)
-mkdir -p obj/zerocoin && chmod +x leveldb/build_detect_platform‏
-
+mkdir -p && chmod +x leveldb/build_detect_platform‏
 
 If you ever encounter the error
 src/leveldb/libleveldb.a: No such file or directory
