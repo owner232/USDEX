@@ -1,4 +1,4 @@
-General Introduction of USDEX
+General Introduction of USX
 
 Your files will pass through the USDE-x network, becoming digitally signed across any additional blockchains of your choosing.
 With USDE-x, your encrypted transactions result in files being verified and stored forever across multiple blockchain ledgers;
@@ -9,11 +9,11 @@ Our team is working on bridging the gaps between altcoin blockchains in the same
 allowing our clients to mine and stake for a broad range of associated alt coins from within our own robust pool,
 increasing the potential workload for our clients, ensuring a future in mining for our community, and exponentially increase value with every new associate blockchain we add while moving forward. 
 
-#USDEX Coin Specification
+#USX Coin Specification
 
-Maximum 232 million USDEX will ever exist to the community.
+Maximum 232 million USX will ever exist to the community.
 
-USDEX coin adopt a variable PoS rate that will be given periodically payout as per following list,
+USX coin adopt a variable PoS rate that will be given periodically payout as per following list,
 - 1st 6 months -> 60% (10% per month)
 - 2nd 6 months -> 50% (8% per month)
 - 3rd 6 months -> 40% (7% per month)
@@ -22,10 +22,10 @@ USDEX coin adopt a variable PoS rate that will be given periodically payout as p
 - 6th 6 months -> 10% (1.4 per month and ongoing.)
 
 #How are they used?
-The USDEX coins are used by USDEX community members for USDEX services and to store and invest the wealth in a non-government controlled currency. The USDEX will also be used  as payment system on number of USDEX partner websites.
+The USX coins are used by USX community members for USX services and to store and invest the wealth in a non-government controlled currency. The USX will also be used  as payment system on number of USX partner websites.
 
 #How are they produced?
-USDEX uses a special algorithm called the POW/POS to secure the USDEX network. The moment you acquire USDEX it becomes an interest bearing asset with 120% return per year through PoS minting. All you have to do to earn with this method is to hold coins in your USDEX-QT wallet. In addition to PoS minting, USDEX coin can be mined with CPU/GPU and does not need an ASIC miner like Bitcoin does.
+USX uses a special algorithm called the POW/POS to secure the USX network. The moment you acquire USX it becomes an interest bearing asset with 120% return per year through PoS minting. All you have to do to earn with this method is to hold coins in your USX-QT wallet. In addition to PoS minting, USX coin can be mined with CPU/GPU and does not need an ASIC miner like Bitcoin does.
 
--USDEX
+-USX
 

@@ -1,7 +1,7 @@
 src/*.exe
-src/USDEX
-src/USDEXd
-src/test_USDEX
+src/USX
+src/USXd
+src/test_USX
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.USDEX
+.USX
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-USDEX-qt
+USX-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

@@ -13,14 +13,14 @@ UNIX BUILD NOTES
 To Build
 --------
 You can also run the autocompile.py and follow the steps
-start in usdex root dir
+start in usx root dir
 
 mkdir -p obj/zerocoin
 mkdir -p src/leveldb/build_detect_platform‏
 chmod +x src/leveldb/build_detect_platform‏
 cd src/
 mkdir obj
-make -f makefile.unix            # Headless USDEX
+make -f makefile.unix            # Headless USX
 
 When it fails run this(again....)
 mkdir -p obj/zerocoin && chmod +x leveldb/build_detect_platform‏
@@ -194,7 +194,7 @@ Code:
 
 
 Step 5.
-Yay! Making our environment is done! Now we can compile usdex.
+Yay! Making our environment is done! Now we can compile usx.
 
 Add mxe bins to PATH:
 Edit your paths file
@@ -203,17 +203,17 @@ Code:
 export PATH=/mnt/mxe/usr/bin:$PATH
 
 
-Download and unpack usdex sources:
+Download and unpack usx sources:
 Code:
 
 cd /mnt
-git clone https://github.com/owner232/usdex-master
+git clone https://github.com/owner232/usx-master
 
 
 Make bash script for compilation:
 Code:
 
-cd /mnt/usdex
+cd /mnt/usx
 touch compile-blk.sh
 chmod ugo+x compile-blk.sh
 
@@ -236,7 +236,7 @@ i686-w64-mingw32.static-qmake-qt5 \
 	BDB_LIB_PATH=$MXE_LIB_PATH \
 	MINIUPNPC_INCLUDE_PATH=$MXE_INCLUDE_PATH \
 	MINIUPNPC_LIB_PATH=$MXE_LIB_PATH \
-	QMAKE_LRELEASE=/mnt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease usdex-qt.pro
+	QMAKE_LRELEASE=/mnt/mxe/usr/i686-w64-mingw32.static/qt5/bin/lrelease usx-qt.pro
 
 make -f Makefile.Release
 
@@ -244,11 +244,11 @@ make -f Makefile.Release
 Compile:
 Code:
 
-./compile-usdex.sh
+./compile-usx.sh
 
 
 And that all.
-Our usdex-qt.exe placed in /mnt/usdex/release
+Our usx-qt.exe placed in /mnt/usx/release
 
 
 
@@ -263,8 +263,8 @@ Our usdex-qt.exe placed in /mnt/usdex/release
 
 
 _______________________________
-See readme-qt.rst for instructions on building USDEX QT,
-the graphical USDEX.
+See readme-qt.rst for instructions on building USX QT,
+the graphical USX.
 
 Dependencies
 ------------
@@ -324,14 +324,14 @@ Dependency Build Instructions: Gentoo
 emerge -av1 --noreplace boost openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
- cd ${USDEX_DIR}/src
+ cd ${USX_DIR}/src
  make -f makefile.unix USE_UPNP=
- strip USDEXd
+ strip USXd
 
 
 Notes
 -----
-The release is built with GCC and then "strip USDEXd" to strip the debug
+The release is built with GCC and then "strip USXd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -361,7 +361,7 @@ sudo su
 
 Security
 --------
-To help make your USDEX installation more secure by making certain attacks impossible to
+To help make your USX installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -378,7 +378,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE=1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./USDEX
+    scanelf -e ./USX
 
     The output should contain:
      TYPE
@@ -386,13 +386,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, USDEX should be built with a non-executable stack
+    vulnerable buffers are found. By default, USX should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./USDEX
+    scanelf -e ./USX
 
     the output should contain:
     STK/REL/PTL
