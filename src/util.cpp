@@ -1064,7 +1064,7 @@ void createConf()       //Automatic USDE.conf generation
 
     ofstream pConf;
     pConf.open(GetConfigFile().generic_string().c_str());
-    const char* nodes = "\nrpcport=8332"                  //List of known nodes, to be periodically updated
+    const char* nodes = "\nrpcport=9240"                  //List of known nodes, to be periodically updated
                         "\nrpcallowip=127.0.0.1"
                         "\ndaemon=1"
                         "\nserver=1"
